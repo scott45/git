@@ -1,5 +1,8 @@
 Git
 - software that runs at the heart of github
+- version control software (manages chnages to a project without overwriting any part of the project)
+- merging functionality
+- reverting back functionality
 
 Github
 - social network that has completely changed the way we work
