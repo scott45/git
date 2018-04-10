@@ -1,0 +1,6 @@
+Git
+- software that runs at the heart of github
+
+Github
+- social network that has completely changed the way we work
+- developers collaborative platform
