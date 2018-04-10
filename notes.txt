@@ -1,9 +1,12 @@
 Git
-- software that runs at the heart of github
-- version control software (manages chnages to a project without overwriting any part of the project)
-- merging functionality
-- reverting back functionality
+- software that runs at the heart of github.
+- version control software (manages chnages to a project without overwriting any part of the project).
+- merging functionality.
+- reverting back functionality.
+- cmd or terminal on mac.
+- saves a snapshot of every change.
 
 Github
-- social network that has completely changed the way we work
-- developers collaborative platform
+- social network that has completely changed the way we work.
+- developers collaborative platform.
+- brings your version controlled projects to the web
