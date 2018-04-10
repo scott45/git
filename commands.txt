@@ -38,3 +38,27 @@ check installed running version
 
 - git clone      
 Clone a repository into a new directory
+
+- git mv         
+Move or rename a file, a directory, or a symlink
+
+- git reset      
+Reset current HEAD to the specified state
+
+- git rm         
+Remove files from the working tree and from the index
+
+- git log        
+Show commit logs
+
+- git show       
+Show various types of objects
+
+- git diff       
+Show changes between commits, commit and working tree, etc
+
+- git rebase     
+Reapply commits on top of another base tip
+
+- git tag        
+Create, list, delete or verify a tag object signed with GPG
