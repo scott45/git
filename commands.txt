@@ -32,3 +32,9 @@ publish your project changes online to github
 
 - git pull
 pull changes from github to have most recent and updated changes.
+
+- git --version
+check installed running version
+
+- git clone      
+Clone a repository into a new directory
