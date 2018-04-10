@@ -12,7 +12,16 @@ Github
 - brings your version controlled projects to the web
 
 Command-line / terminal
-- computer program we use to input git commands
+- computer program we use to input git commands.
 
 Repository
-- directory or storage space where your projects can live
+- directory or storage space where your projects can live.
+
+Version control
+- purpose git was designed to serve.
+
+Commit
+- take a snapshot of recent added changes.
+
+Branch
+- version of changes to a particlar part of a project.
