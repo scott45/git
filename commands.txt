@@ -22,9 +22,13 @@ take a snapshot of the repo. used with -m tag
 list all created branches
 
 - git checkout
+change to another branch, -b tag creates a new branch and activates it automatically.
 
 - git merge
+amalgamate changes in one branch to another branch
 
 - git push
+publish your project changes online to github
 
 - git pull
+pull changes from github to have most recent and updated changes.
