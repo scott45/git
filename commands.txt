@@ -10,12 +10,16 @@ configure git, esp setting it up for the first time.
 21 most common git commands
 
 - git status
+check the status of your repo
 
 - git add
+bring new files to git's attention. Not necessarily adding them.
 
 - git commit
+take a snapshot of the repo. used with -m tag
 
 - git branch
+list all created branches
 
 - git checkout
 
