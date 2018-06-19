@@ -1,6 +1,6 @@
 # Development Environment setup
 
-[![DevOps](https://img.shields.io/badge/%20DevOps-Automation-yellow.svg)]()  [![DevOps](https://img.shields.io/badge/%20GCP-Kubernetes/GKE-blue.svg)]()  [![DevOps](https://img.shields.io/badge/%20CI&CD-Jenkins-green.svg)]()
+[![DevOps](https://img.shields.io/badge/%20DevOps-Automation-yellow.svg)]()  [![DevOps](https://img.shields.io/badge/%20GCP-Kubernetes/GKE-blue.svg)]()  [![DevOps](https://img.shields.io/badge/%20CI&CD-jenkins-green.svg)]()
 
 Automation has been achieved for the development environment. Any changes will trigger an automated deployment to the development cluster on Google cloud / Kubernetes. The following has been done.
 
