@@ -18,7 +18,7 @@ Automation has been achieved for the development environment. Any changes will t
  
  # CI & CD!
 
-  - Using CircleCI as the continous integration and continous deployment tool.
+  - Using Jenkins as the continous integration and continous deployment tool.
   - Automated builds support, currently for develop branch. This would require adjusting the current development git workflow to make develop branch the only dependance for any deployment.
   - Merging to develop will trigger a build on CircleCI that will run the test and deploy jobs.
   - Environment variables have been set on the CircleCI dashboard.
