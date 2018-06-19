@@ -27,9 +27,9 @@ Automation has been achieved for the development environment. Any changes will t
 # Automation!
 The following has been automated;
   - installing Google CloudSdk.
-  - authenticating With ServiceAccount.
+  - authenticating With Service Account.
   - configuring Google CloudSdk.
-  - logging in to ContainerRegistry.
+  - logging in to Container Registry.
   - building and tagging the docker image.
   - publishing the docker image.
   - logging out of the container registry.
