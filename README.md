@@ -22,7 +22,7 @@ Automation has been achieved for the development environment. Any changes will t
   - Automated builds support, currently for develop branch. This would require adjusting the current development git workflow to make develop branch the only dependance for any deployment.
   - Merging to develop will trigger a build on Jenkins that will run the test and deploy jobs.
   - Environment variables have been set on the Jenkins dashboard.
-  - A deploy.sh script containing the deployment commands has been integrated in the .circleci folder in the home directory which is called by the config.yaml to trigger the deployment.
+  - A deploy.sh script containing the deployment commands has been integrated in the scripts folder in the home directory which is called by the Jenkinsfile to trigger the deployment.
 
 # Automation!
 The following has been automated;
