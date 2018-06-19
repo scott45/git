@@ -5,7 +5,7 @@
 Automation has been achieved for the development environment. Any changes will trigger an automated deployment to the development cluster on Google cloud / Kubernetes. The following has been done.
 
   - Development environment with ssl enabled hosted at (domain) 
-  - Continous integration and Integration deployment pipeline configured for the development enviroment using circleCI. 
+  - Continous integration and Integration deployment pipeline configured for the development enviroment using Jenkins. 
   - Integrated a few automation scripts
   
   # Deployment!
