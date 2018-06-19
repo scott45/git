@@ -25,7 +25,7 @@ Automation has been achieved for the development environment. Any changes will t
   - A deploy.sh script containing the deployment commands has been integrated in the scripts folder in the home directory which is called by the Jenkinsfile to trigger the deployment.
 
 # Automation!
-The following has been automated;
+The following has been automated through the CI&CD pipeline;
   - installing Google CloudSdk.
   - authenticating With Service Account.
   - configuring Google CloudSdk.
