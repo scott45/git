@@ -71,3 +71,5 @@ Integrating feedback responses e.g slack notifications or emails for new deploym
 Automating renewal of ssl certificates as the surrent one is valid for 3 months.
  - Using Helm to create charts and manage releases for the project. This will enable installation of the application in another cluster easily.
  - Implement monitoring and logging to gather feedback and logs from the application easily. Used tools can be stackdriver, bugsnag or datadog etc.
+ 
+ ### Contributors
