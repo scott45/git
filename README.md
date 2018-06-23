@@ -73,3 +73,4 @@ Automating renewal of ssl certificates as the surrent one is valid for 3 months.
  - Implement monitoring and logging to gather feedback and logs from the application easily. Used tools can be stackdriver, bugsnag or datadog etc.
  
  ### Contributors
+  - David
