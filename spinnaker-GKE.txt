@@ -15,3 +15,11 @@ Build your Docker image.
 Create triggers to create Docker images when your application changes.
 Configure a Spinnaker pipeline to reliably and continuously deploy your application to Kubernetes Engine.
 Deploy a code change, triggering the pipeline, and watch it roll out to production.
+
+Includes costs for k8s engine, cloud load balancer, container builder, and resource manager. 
+
+Start a Cloud Shell instance and create a Kubernetes Engine cluster
+- Open cloud shell
+- cloud config set compute/zone us-central1-f
+- gcloud container clusters create spinnaker-tutorial \
+      --machine-type=n1-standard-2
