@@ -6,3 +6,12 @@ Creating a CD delivery pipeline using Kubernetes engine, cloud source repositori
 With Kubernetes Engine and Spinnaker, you can create a robust continuous delivery flow that helps to ensure your software is shipped as quickly as it is developed and validated.
 
 Developer > container builder > spinnaker
+
+Objectives
+Set up your environment by launching Cloud Shell, creating a Kubernetes Engine cluster, and configuring your identity and user management scheme.
+Download a sample application, create a Git repository, and upload it to a Cloud Source Repository.
+Deploy Spinnaker to Kubernetes Engine using Helm.
+Build your Docker image.
+Create triggers to create Docker images when your application changes.
+Configure a Spinnaker pipeline to reliably and continuously deploy your application to Kubernetes Engine.
+Deploy a code change, triggering the pipeline, and watch it roll out to production.
