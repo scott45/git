@@ -46,3 +46,31 @@ kubectl create clusterrolebinding tiller-admin-binding --clusterrole=cluster-adm
 - ./helm init --service-account=tiller
 - ./helm update
 - ./helm version
+
+Configure Spinnaker
+- export PROJECT=$(gcloud info \
+    --format='value(config.project)')
+export BUCKET=$PROJECT-spinnaker-config
+gsutil mb -c regional -l us-central1 gs://$BUCKET
+
+- export SA_JSON=$(cat spinnaker-sa.json)
+export PROJECT=$(gcloud info --format='value(config.project)')
+export BUCKET=$PROJECT-spinnaker-config
+cat > spinnaker-config.yaml <<EOF
+storageBucket: $BUCKET
+gcs:
+  enabled: true
+  project: $PROJECT
+  jsonKey: '$SA_JSON'
+# Disable minio as the default
+minio:
+  enabled: false
+# Configure your Docker registries here
+accounts:
+- name: gcr
+  address: https://gcr.io
+  username: _json_key
+  password: '$SA_JSON'
+  email: 1234@5678.com
+EOF
+
