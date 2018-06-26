@@ -96,3 +96,5 @@ Building the Docker image
 - export PROJECT=$(gcloud info --format='value(config.project)')
   git remote add origin https://source.developers.google.com/p/$PROJECT/r/sample-app
 - git push origin master
+
+Configure your build triggers
